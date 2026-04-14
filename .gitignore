@@ -1,0 +1,18 @@
+#Dependencias
+
+node_modules/
+
+#variables de entorno y credenciales
+#las credenciales ponerlas en el gitignore porque pueden subirse al repositorio
+.env
+.env.local
+
+
+
+#archivos que genera el sistema operativo
+.DS_Store
+Thumbs.db
+
+#Carpetas de compilación
+dist/
+build/
